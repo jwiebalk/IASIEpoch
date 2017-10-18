@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>IASIEpoch Converter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+  <body>
+    <span id="description">
+      <span id="header">"It's Always Sunny In Epoch" Time Converter</span>
+    <br> Enter epoch timestamp
+    <br>
+    </span>
+    <span id="titleCard">"It's Always Sunny In Epoch"</span>
+
+    <div id="inputform" class="row">
+      <form class="col s12">
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="epochTime" type="text">
+            <label for="epochTime">Epoch Timestamp</label>
+          </div>
+        </div>
+      </form>
+      <a type="submit" id="convertButton" onclick="displayTime()" class="btn-large yellow">Convert</a>
+    </div>
+
+  <script src="sunny.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+  </body>
+</html>
