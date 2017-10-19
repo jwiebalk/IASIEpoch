@@ -8,7 +8,8 @@ function displayTime(){
 }
 
 function setUpTitleCard(title){
-  $("#inputform, #description, #footer").hide();
+  $("#inputform, #description, #footer, #holder").hide();
+
   $("#titleCard").show();
 
   $("#titleCard").text('"' + title + '"');
